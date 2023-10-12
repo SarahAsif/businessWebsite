@@ -1,0 +1,186 @@
+ body{
+ 	font-family: 'Lato', serif;
+ }
+ .opaque-navbar{
+    background-color: rgba(0,0,0,0.7);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 1px solid #586796;
+    transition: background-color .5s ease 0s;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background: none;
+}
+.logo{
+	letter-spacing: 12px;
+}
+header{
+	background-image: url("mountain.jpg");
+	position: relative;
+    width: 100%;
+    margin-top: -60px;
+    height: 730px;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header-content-inner{
+	padding-top: 250px;
+}
+.mainheading{
+	font-size: 100px;
+}
+.header-content p{
+	font-size: 18px;
+	color: #ddccd3
+}
+.header-content #buton{
+	padding-top: 30px;
+}
+.btn {
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-lg {
+    padding: 15px 30px;
+}
+.section2{
+	background-color: #2e6da4;
+	text-align: center;
+	padding: 80px;
+	color: white;
+}
+.section2 p{
+	margin-left:150px;
+	font-size: 16px;
+	margin-right:150px;
+	text-align: center;
+}
+
+.section3 .row{
+	margin-top:100px; 
+	margin-bottom:100px;
+}
+.section4{
+	background-color: #222222;
+	color: white;
+	padding: 60px;
+}
+.section4 p{
+	color: #b3b9b9;
+}
+
+
+.promo,
+.promo h3,
+.promo a:link,
+.promo a:visited,
+.promo a:hover,
+.promo a:active {
+    color: white;
+	text-shadow: 0px 0px 40px black;
+    text-decoration: none;
+}
+
+.promo-item {
+    height: 200px;
+    line-height: 180px;
+    text-align: center;
+}
+
+.promo-item:hover {
+    background-size: 110%; 
+    border: 10px solid rgba(255,255,255,0.3);
+    line-height: 160px;
+}
+
+.promo-item h3 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.item-1 {
+	background: url('pen.jpg');
+	}
+	
+.item-2 {
+	background: url('concert.jpg');
+	}
+	
+.item-3 {
+	background: url('pencil.jpg');
+	}
+		
+.item-1,
+.item-2,
+.item-3 {
+	background-size: cover;
+	background-position: 50% 50%;
+	}
+.section6{
+	text-align:center;
+	margin: 40px;
+}
+.contact{
+	text-align:center;
+	background-color: #2e6da4;
+	color: white;
+	font-size: 30px;	
+	padding: 100px;
+}
+.contact p{
+	font-size: 22px;
+}
+.small-print{
+	padding: 40px;
+	text-align: center;
+	font-size: 16px
+}
+
+/*---------------------------media-------------*/
+
+@media(max-width:950px) {
+    header {
+        min-height: 100%;
+    }
+    
+.mainheading{
+	font-size: 80px;
+	}
+}
+@media(max-width:756px) {
+    
+.mainheading{
+	font-size: 50px;
+	}
+}
+@media(max-width:767px) {
+    .section2 p{
+    	padding: 0;	
+    }
+    .section2{
+    	padding: 10px;
+    }
+	img{
+		width: 50%;	
+	}
+}
+
+@media(max-width:462px) {
+    p{
+    	
+    }
+    .section2 p{
+    	padding: 0;
+    	margin: 0
+    }
+
+}
